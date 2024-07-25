@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./calci.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>CALCULATOR</h1>
+        <div id="calci">
+            <div id="partOne">
+                <div id="mode" onclick="mode()"></div>
+                <div id="head">
+                    <div id="typed"></div>
+                    <div id="typing"></div>
+                </div>
+            </div>
+            <div id="subhead">
+                <button id="clr" onclick="C()">C</button>
+                <button id="clr" onclick="handleclick('%')">%</button>
+                <button id="clr" onclick="CE()">CE</button>
+                <button id="clr" onclick="handleclick('/')">/</button>
+                <button id="btn" onclick="handleclick(7)">7</button>
+                <button id="btn" onclick="handleclick(8)">8</button>
+                <button id="btn" onclick="handleclick(9)">9</button>
+                <button id="clr" onclick="handleclick('*')">*</button>
+                <button id="btn" onclick="handleclick(4)">4</button>
+                <button id="btn" onclick="handleclick(5)">5</button>
+                <button id="btn" onclick="handleclick(6)">6</button>
+                <button id="clr" onclick="handleclick('-')">-</button>
+                <button id="btn" onclick="handleclick(1)">1</button>
+                <button id="btn" onclick="handleclick(2)">2</button>
+                <button id="btn" onclick="handleclick(3)">3</button>
+                <button id="clr" onclick="handleclick('+')">+</button>
+                <button id="btn" onclick="handleclick('00')">00</button>
+                <button id="btn" onclick="handleclick(0)">0</button>
+                <button id="clr" onclick="handleclick('.')">.</button>
+                <button id="clr" onclick="result()">=</button>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+<script src="./calci.js"></script>
+
+</html>
